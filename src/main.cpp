@@ -3277,7 +3277,8 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
             // subtractions in the other branch of this conditional.
             chainSupplyDelta += tx.GetValueOut();
         } else {
-            const auto txFee = view.GetValueIn(tx) - tx.GetValueOut();
+            const auto spendableValueOut = tx.GetValueOut() - tx.nZsfDepositAmount;
+            const auto txFee = view.GetValueIn(tx) - spendableValueOut;
             nFees += txFee;
 
             // Fees from a transaction do not go into an output of the transaction,
