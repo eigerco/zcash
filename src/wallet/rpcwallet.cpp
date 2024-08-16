@@ -316,7 +316,7 @@ static void SendMoney(
 
     // Create and send the transaction
     CReserveKey reservekey(pwalletMain);
-    CAmount nFeeRequired;
+    CAmount nFeeRequired{0};
     std::string strError;
     vector<CRecipient> vecSend;
     int nChangePosRet = -1;
