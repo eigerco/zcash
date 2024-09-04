@@ -736,10 +736,14 @@ public:
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x00");
 
-        pchMessageStart[0] = 0xaa;
-        pchMessageStart[1] = 0xe8;
-        pchMessageStart[2] = 0x3f;
-        pchMessageStart[3] = 0x5f;
+        // pchMessageStart[0] = 0xaa;
+        // pchMessageStart[1] = 0xe8;
+        // pchMessageStart[2] = 0x3f;
+        // pchMessageStart[3] = 0x5f;
+        pchMessageStart[0] = 1;
+        pchMessageStart[1] = 1;
+        pchMessageStart[2] = 1;
+        pchMessageStart[3] = 1;
         nDefaultPort = 18344;
         nPruneAfterHeight = 1000;
 

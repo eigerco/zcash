@@ -116,10 +116,10 @@ codegen-units = 1
 bridgetree = { git = "https://github.com/zcash/incrementalmerkletree.git", rev = "337f59179eda51261e9ddfc6b18e8fb84ea277c9" }
 incrementalmerkletree = { git = "https://github.com/zcash/incrementalmerkletree.git", rev = "337f59179eda51261e9ddfc6b18e8fb84ea277c9" }
 
-equihash = { git = "https://github.com/eigerco/librustzcash.git", rev = "3f9be2f8dcdae832ad453b63d08a3a37a38329a6" }
-zcash_address = { git = "https://github.com/eigerco/librustzcash.git", rev = "3f9be2f8dcdae832ad453b63d08a3a37a38329a6" }
-zcash_encoding = { git = "https://github.com/eigerco/librustzcash.git", rev = "3f9be2f8dcdae832ad453b63d08a3a37a38329a6" }
-zcash_history = { git = "https://github.com/eigerco/librustzcash.git", rev = "3f9be2f8dcdae832ad453b63d08a3a37a38329a6" }
-zcash_primitives = { git = "https://github.com/eigerco/librustzcash.git", rev = "3f9be2f8dcdae832ad453b63d08a3a37a38329a6"}
-zcash_proofs = { git = "https://github.com/eigerco/librustzcash.git", rev = "3f9be2f8dcdae832ad453b63d08a3a37a38329a6" }
-zcash_protocol = { git = "https://github.com/eigerco/librustzcash.git", rev = "3f9be2f8dcdae832ad453b63d08a3a37a38329a6" }
+equihash = { git = "https://github.com/eigerco/librustzcash.git", rev = "f60fda0a403367fe20b99c673c212328d34da0e0" }
+zcash_address = { git = "https://github.com/eigerco/librustzcash.git", rev = "f60fda0a403367fe20b99c673c212328d34da0e0" }
+zcash_encoding = { git = "https://github.com/eigerco/librustzcash.git", rev = "f60fda0a403367fe20b99c673c212328d34da0e0" }
+zcash_history = { git = "https://github.com/eigerco/librustzcash.git", rev = "f60fda0a403367fe20b99c673c212328d34da0e0" }
+zcash_primitives = { git = "https://github.com/eigerco/librustzcash.git", rev = "f60fda0a403367fe20b99c673c212328d34da0e0"}
+zcash_proofs = { git = "https://github.com/eigerco/librustzcash.git", rev = "f60fda0a403367fe20b99c673c212328d34da0e0" }
+zcash_protocol = { git = "https://github.com/eigerco/librustzcash.git", rev = "f60fda0a403367fe20b99c673c212328d34da0e0" }
